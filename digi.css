@@ -1,0 +1,32 @@
+header{
+       box-shadow: 0px 0px 10px 5px rgb(246, 245, 245);
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+.head ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.head a{
+    text-decoration: none;
+    color:  hsl(233, 8%, 62%);
+}
+.head a:hover{
+    color: hsl(233, 26%, 24%);
+    border-bottom: 2px solid hsl(136, 64%, 51%);
+}
+.invite a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, hsl(192, 69%, 51%) , hsl(136, 64%, 51%));
+}
