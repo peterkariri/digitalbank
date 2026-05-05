@@ -88,6 +88,7 @@ header{
     border-radius: 20px;
     width: 30%;
     margin-top: 20px;
+    text-align: center;
     background: linear-gradient(to right, hsl(192, 69%, 51%) , hsl(136, 64%, 51%));
 }
 
@@ -183,10 +184,15 @@ footer{
     background-color: hsl(233, 26%, 24%);
     color: white;
     padding: 60px;
-    display: flex;
+    
+    margin-top: 50px;
+}
+.bothfoot{
+display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    width: 90%;
+    margin: auto;
 }
 .footer-1{
     display: flex;
@@ -195,4 +201,38 @@ footer{
 }
 .links{
     display: flex;
+    gap: 100px;
+
+}
+.link-1 ,.link-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: hsl(136, 64%, 51%);
+}
+
+.reg-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reg-2 a{
+   text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(to right, hsl(192, 69%, 51%) , hsl(136, 64%, 51%));
 }
