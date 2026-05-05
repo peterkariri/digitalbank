@@ -240,53 +240,130 @@ display: flex;
     background: linear-gradient(to right, hsl(192, 69%, 51%) , hsl(136, 64%, 51%));
 }
 
-@media (max-width:340px){
-    body{
-        background-color: red;
-    }
+@media (max-width:768px){
+
     .header{
         display: none;
-        width: 100%;
+        
     }
     header{
-        width: 100vw;
+        padding: 20px;
     }
-    main{
-        width: 100%;
-    }
+   
     .header-mobile{
         display: flex;
         padding: 20px;
-        width: 100%;
+       align-items: center;
         justify-content: space-between;
     }
     .head-mobile{
         display: none;
     }
-    .parent-1{
-    display: flex;
+/*      // hero section
+ */    
+ .parent-1{
     flex-direction: column-reverse;
-    align-items: center;
-    margin: auto;
-    width: 80%;
+    margin-top: 10px;
+    padding: 0px 20px;
+    width: 100%;
    
      
+
+
+}
+.first{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.first h1{
+    font-size: 32px;
+    margin: 20px 0;
+}
+.first p{
+    width: 100%;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.first a{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
 
 }
 .second{
     
     background-image: url("/images/bg-intro-mobile.svg");
      background-repeat: no-repeat;
-     background-size: contain;
-     background-position: right;
-     z-index: -1;
-     height: 70vh;
+     background-size: cover;
+     background-position: center;
+    height: 300px;
+    width: 100%;
 }
 
 .second img{
     position: relative;
-    bottom: 250px;
-    left:200px;
+    bottom: 100px;
+    left:auto;
+    width: 100%;
+}
+.grey{
+    height: auto;
+    padding: 20px ;
 }
 
+.choose p{
+    width: 100%;
+    text-align: center;
+}
+.choose h2{
+    text-align: center;
+}
+.component{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    }
+
+    .similar{
+            padding: 20px;
+
+    }
+
+    .similar p{
+    
+    width: 100%;
+}
+.art{
+    flex-direction: column;
+    
+    margin: auto;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+.image-art{
+    width: 100%;
+}
+.image-art img{
+    width: 100%;
+}
+
+.article{
+    width: 100%;
+}
+.articles-parent h2{
+    text-align: center;
+}
+.bothfoot,.footer-1,.links,.footer-1,.link-1,.link-2,.logo-2,.reg-2{
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.reg-2 a{
+    width: 50%;
+    margin: auto;
+}
 }

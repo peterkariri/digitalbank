@@ -1,0 +1,221 @@
+/* MOBILE STYLES - 375px and below */
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    header {
+        padding: 16px;
+    }
+
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .head-mobile {
+        display: none;
+    }
+
+    /* Hero Section */
+    .parent-1 {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .first {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .first h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .first p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .first a {
+        width: 50%;
+        margin: 20px auto 0;
+    }
+
+    .second {
+        background-image: url("/images/bg-intro-mobile.svg");
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 100%;
+    }
+
+    .second img {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        width: 80%;
+        max-width: 280px;
+    }
+
+    /* Why Choose Section */
+    .grey {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .parent-2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .choose {
+        text-align: center;
+    }
+
+    .choose h2 {
+        font-size: 28px;
+    }
+
+    .choose p {
+        width: 100%;
+        margin: 16px auto 0;
+    }
+
+    /* Features Grid - Stack Vertically */
+    .component {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .similar {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .similar h3 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .similar p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Articles Section */
+    .articles-parent {
+        margin-top: 50px;
+    }
+
+    .articles-parent h2 {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 28px;
+    }
+
+    .art {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0 20px;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .image-art {
+        width: 100%;
+    }
+
+    .image-art img {
+        width: 100%;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+    /* Footer */
+    .bothfoot {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-1 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .link-1,
+    .link-2 {
+        gap: 16px;
+    }
+
+    .logo-2 {
+        order: -1;
+        gap: 30px;
+    }
+
+    .reg-2 {
+        order: 1;
+    }
+
+    .reg-2 a {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+}
+
+/* TABLET & DESKTOP - 769px and above */
+@media (min-width: 769px) {
+    .header-mobile {
+        display: none !important;
+    }
+
+    .head-mobile {
+        display: none !important;
+    }
+
+    .header {
+        display: flex !important;
+    }
+
+    .parent-1 {
+        width: 80%;
+    }
+
+    .grey {
+        height: 40vh;
+    }
+
+    .art {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article {
+        width: calc(50% - 20px);
+    }
+}
