@@ -244,7 +244,10 @@ display: flex;
 }
 
 @media (max-width:768px){
-
+body{
+    margin: 0;
+    padding: 0;
+}
     .header{
         display: none;
         
@@ -370,4 +373,3 @@ display: flex;
     margin: auto;
 }
 }
-//from this create a taablet responsive design{}
