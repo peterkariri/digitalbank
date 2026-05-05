@@ -1,6 +1,9 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: auto;
+    max-width: fit-content;
+    min-width: 340px;
+
 }
 header{
        box-shadow: 0px 0px 10px 5px rgb(246, 245, 245);
@@ -367,3 +370,4 @@ display: flex;
     margin: auto;
 }
 }
+//from this create a taablet responsive design{}
