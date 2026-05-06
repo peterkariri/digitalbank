@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Contact Us - Digitalbank</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header-container">
+    <div class="header-desktop">
+      <div class="logo">
+        <a href="index.html"><img src="./images/logo-dark.svg" alt="Digitalbank"></a>
+      </div>
+
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn-invite">Request Invite</a>
+    </div>
+
+    <div class="header-mobile">
+      <div class="logo">
+        <a href="index.html"><img src="./images/logo-dark.svg" alt="Digitalbank"></a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <img src="./images/icon-hamburger.svg" alt="">
+      </button>
+    </div>
+
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+      <nav class="mobile-menu">
+        <button class="close-menu" id="closeMenu" aria-label="Close menu">
+          <img src="./images/icon-close.svg" alt="">
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+      <div class="contact-hero-content">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Contact Form -->
+          <div class="contact-form-section">
+            <h2>Send us a Message</h2>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="category">Inquiry Type *</label>
+                <select id="category" name="category" required>
+                  <option value="">Select category</option>
+                  <option value="support">Customer Support</option>
+                  <option value="billing">Billing Question</option>
+                  <option value="technical">Technical Issue</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-invite">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info-section">
+            <h2>Contact Information</h2>
+
+            <div class="contact-info-card">
+              <h3>📍 Headquarters</h3>
+              <p>123 Financial Street<br>New York, NY 10001<br>United States</p>
+            </div>
+
+            <div class="contact-info-card">
+              <h3>📞 Phone</h3>
+              <p>+1 (800) 123-4567<br>Monday - Friday, 9am - 6pm EST<br>Saturday, 10am - 4pm EST</p>
+            </div>
+
+            <div class="contact-info-card">
+              <h3>✉️ Email</h3>
+              <p><a href="mailto:support@digitalbank.com">support@digitalbank.com</a><br>
+              <a href="mailto:hello@digitalbank.com">hello@digitalbank.com</a></p>
+            </div>
+
+            <div class="contact-info-card">
+              <h3>🌐 Social Media</h3>
+              <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="contact-locations">
+      <div class="container">
+        <h2>Our Offices</h2>
+        <div class="locations-grid">
+          <div class="location-card">
+            <h3>New York, USA</h3>
+            <p>123 Financial Street<br>New York, NY 10001<br>+1 (800) 123-4567</p>
+          </div>
+          <div class="location-card">
+            <h3>London, UK</h3>
+            <p>456 Banking Plaza<br>London, EC1A 1BB<br>+44 (0)20 1234 5678</p>
+          </div>
+          <div class="location-card">
+            <h3>Singapore</h3>
+            <p>789 Finance Hub<br>Singapore, 018960<br>+65 6234 5678</p>
+          </div>
+          <div class="location-card">
+            <h3>Sydney, Australia</h3>
+            <p>321 Capital Centre<br>Sydney, NSW 2000<br>+61 (0)2 1234 5678</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What are your support hours?</h3>
+            <p>We provide 24/7 customer support through our chat feature. Phone support is available Monday-Friday 9am-6pm EST and Saturday 10am-4pm EST.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How quickly will I get a response?</h3>
+            <p>We aim to respond to all inquiries within 24 hours. For urgent issues, contact our 24/7 live chat support.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Can I reach you on social media?</h3>
+            <p>Yes! We actively monitor all our social media channels. Send us a direct message and we'll get back to you quickly.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Do you have international support?</h3>
+            <p>Absolutely. We have offices in multiple countries and provide support in several languages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; 2026 Digitalbank. All rights reserved.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
